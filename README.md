@@ -14,7 +14,9 @@ IMPORTANTE: primeiro rodar o backend e depois o frontend pois os dois estão con
    npm start
    ```
 Será detectado que já tem algo rodando na porta 3000 e aparecerá a seguinte mensagem:
-? Something is already running on port 3000. Would you like to run the app on another port instead? › (Y/n)
+   ```
+   ? Something is already running on port 3000. Would you like to run the app on another port instead? › (Y/n)
+   ```
 3. Selecionar 'Y' para rodar o frontend em outra porta.
 
 ## Estrutura do Projeto
