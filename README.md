@@ -2,6 +2,21 @@
 
 Este projeto é um template para desenvolvimento de aplicações de backend utilizando Node.js, Express e PostgreSQL. Abaixo estão as instruções para instalação e uso.
 
+## Como rodar o projeto completo (backend + frontend)
+
+IMPORTANTE: primeiro rodar o backend e depois o frontend pois os dois estão configurados na porta 3000.
+1. Entrar na pasta do backend /frontend-PRW2-tp2 e executar o comando:
+   ```
+   docker compose up --build
+   ```
+2. Em outro terminal entrar na pasta do frontend /frontend-PRW2-tp2/frontend e executar o comando:
+   ```
+   npm start
+   ```
+Será detectado que já tem algo rodando na porta 3000 e aparecerá a seguinte mensagem:
+? Something is already running on port 3000. Would you like to run the app on another port instead? › (Y/n)
+3. Selecionar 'Y' para rodar o frontend em outra porta.
+
 ## Estrutura do Projeto
 
 ```
